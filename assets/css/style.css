@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1.5;
+	font-size: 16px;
+	color: #009788;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+	max-width: 1170px;
+	width: 100%;
+	margin: 20px;
+}
+.flex {
+	display: flex;
+}
+.name {
+	text-align: center;
+	margin: 10px;
+}
+#skill {
+	text-align: left;
+	margin: 20px;
+}
+.sidebar {
+	width: 35%;
+	background: #009788;
+	color: #fff;
+}
+.sidebar .module {
+	padding: 0 45px;
+}
+.module__content {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.avatar {
+	text-align: center;
+	padding: 20px 0;
+	background: #009788;
+	margin-top: 10px;
+}
+.avatar img {
+	border-radius: 50%;
+}
+img {
+	vertical-align: middle;
+	max-width: 100%;
+}
+.content {
+	width: 65%;
+	padding: 40px;
+}
+.section:not(.last-child) {
+	margin-bottom: 50px;
+}
+.section__title {
+	color: #009788;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.section__content {
+	color: black;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 5px;
+}
+td {
+	border: 1px solid #fff;
+	padding: 16px;
+	vertical-align: middle;
+}
+.container {
+	width: 100%; 
+	background-color: #ddd; 
+}
+.skills {
+	text-align: right;
+	padding-right: 10px;
+	line-height: 40px; 
+	color: white; 
+}
+.html {
+	width: 100%; 
+	background-color: #4CAF50;
+} 
+.css {
+	width: 40%; 
+	background-color: #2196F3;
+}
+.php {
+	width: 30%; 
+	background-color: #808080;
+}
+#education {
+	border: none;
+	border-color: none;
+}
+span {
+	font-size: 20px;
+}
+.enjoy ul li {
+	list-style-type: none;
+}
